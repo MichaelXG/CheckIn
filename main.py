@@ -27,7 +27,7 @@ def Main():
             sac.MenuItem('Menu Principal', icon=sac.BsIcon(name='person-bounding-box', color='rgb(20,80,90)')),   
             # Check in
             sac.MenuItem(type='divider'),
-            sac.MenuItem('Check In',  icon=sac.BsIcon(name='person-fill', color='rgb(20,80,90)'), description='Adicionar novo Aluno'),
+            sac.MenuItem('Check In',  icon=sac.BsIcon(name='person-fill', color='rgb(20,80,90)'), description='Validar Check in viagem'),
         ], color='rgb(20,80,90)', open_all=False, return_index=False, index=0, key='Menu_principal')
     
     if selected == 'Menu Principal':
